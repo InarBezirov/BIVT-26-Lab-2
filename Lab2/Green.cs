@@ -138,7 +138,8 @@ namespace Lab2
                 double power = x;
                 double sign = 1;
                 int i = 0;
-                while (true)
+                int maxx = 100000;
+                while (i < maxx)
                 {
                     double term = sign * power / (2 * i + 1);
                     if (Math.Abs(term) < E) break;
