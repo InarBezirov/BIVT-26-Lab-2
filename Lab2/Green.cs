@@ -142,8 +142,8 @@ namespace Lab2
                 while (i < maxx)
                 {
                     double term = sign * power / (2 * i + 1);
-                    if (Math.Abs(term) < E) break;
                     s += term;
+                    if (Math.Abs(term) < E) break;
                     sign = -sign;
                     power *= x * x;
                     i++;
