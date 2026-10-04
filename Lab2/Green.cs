@@ -132,7 +132,7 @@ namespace Lab2
             double SY = 0;
 
             // code here
-            for (double x = a; x <= b + h / 2; x += h)
+            for (double x = a; x <= b; x += h)
             {
                 double s = 0;
                 double power = x;
